@@ -8,3 +8,5 @@ section .text
 _start:
 	mov rax, 0x39
 	syscall
+	mov rax, 0x39
+	syscall
